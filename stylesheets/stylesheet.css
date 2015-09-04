@@ -264,7 +264,13 @@ Full-Width Styles
   width: 100%;
 }
 
-.inner {
+.inner h1 {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.inner h1 {
   position: relative;
   max-width: 640px;
   padding: 20px 10px;
